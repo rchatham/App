@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "keychainaccess",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kishikawakatsumi/KeychainAccess.git",
+      "state" : {
+        "revision" : "84e546727d66f1adc5439debad16270d0fdd04e7",
+        "version" : "4.2.2"
+      }
+    },
+    {
+      "identity" : "langtools.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rchatham/LangTools.swift.git",
+      "state" : {
+        "revision" : "8c671ced6abbe935e2d4ecceb6c61f696e1bd14b",
+        "version" : "0.0.9"
+      }
+    }
+  ],
+  "version" : 2
+}
