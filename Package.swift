@@ -23,10 +23,10 @@ let package = Package(
         .target(
             name: "Chat",
             dependencies: [
-                .product(name: "LangTools", package: "langtools.swift", condition: .when(platforms: [.iOS])),
-                .product(name: "OpenAI", package: "langtools.swift", condition: .when(platforms: [.iOS])),
-                .product(name: "Anthropic", package: "langtools.swift", condition: .when(platforms: [.iOS])),
-                .product(name: "XAI", package: "langtools.swift", condition: .when(platforms: [.iOS])),
+                .product(name: "LangTools", package: "langtools.swift"),
+                .product(name: "OpenAI", package: "langtools.swift"),
+                .product(name: "Anthropic", package: "langtools.swift"),
+                .product(name: "XAI", package: "langtools.swift"),
                 "KeychainAccess"
             ],
             path: "Modules/Chat"),

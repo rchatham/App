@@ -82,7 +82,7 @@ class HostInterceptorProtocol: URLProtocol {
 
     /// Modify the request before sending
     override class func canonicalRequest(for request: URLRequest) -> URLRequest {
-        guard var url = request.url,
+        guard let url = request.url,
               let originalHost = url.host,
               let replacementHost = replacementHosts[originalHost] else {
             return request
